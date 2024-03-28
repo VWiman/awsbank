@@ -8,7 +8,7 @@ const Header = () => {
 	return (
 		<header className="sticky flex w-screen top-0 h-16 text-slate-50 bg-slate-950">
 			{isLoggedIn ? (
-				<nav className="flex flex-row font-medium w-full items-center justify-end gap-4 shadow-sm">
+				<nav className="flex flex-row font-medium w-full items-center justify-center md:justify-end md:pr-52 shadow-sm">
 					<button onClick={() => logout()}>LOG OUT</button>
 				</nav>
 			) : (
